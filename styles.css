@@ -7,14 +7,19 @@
 body{
     padding:0;
     margin:0;
-    background:linear-gradient(to left,rgb(0, 0, 0),rgb(63, 0, 113))
+    background:linear-gradient(to left,#B983FF,#94B3FD)
+}
+
+h1{
+    color:white;
+    text-align:center
 }
 
 .calculator-grid{
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 70vh;
     grid-template-columns: repeat(4,100px);
     grid-template-rows: minmax(120px,auto) repeat(5,100px);
 }
